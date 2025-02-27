@@ -1,0 +1,61 @@
+# Ignore Gradle files
+.gradle/
+build/
+local.properties
+
+# Ignore Android Studio / IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore Android build artifacts
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.keystore
+
+# Ignore Android build output
+captures/
+.externalNativeBuild/
+.cxx/
+gradle-wrapper.jar
+
+# Ignore Kotlin/Java generated files
+*.log
+*.out
+*.err
+
+# Ignore IntelliJ-specific files
+.idea/.idea_modules/
+.idea/workspace.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/runConfigurations/
+
+# Ignore JetBrains specific files
+*.iml
+
+# Ignore other files in Android Studio
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/projectView.xml
+.idea/settings.gradle
+.idea/deploymentTargetSelector.xml
+
+# Ignore generated files
+*.hprof
+
+# Ignore build directories
+/build/
