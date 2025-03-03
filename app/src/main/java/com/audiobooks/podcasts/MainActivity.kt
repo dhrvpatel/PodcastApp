@@ -14,8 +14,8 @@ import com.audiobooks.podcasts.model.Podcast
 import com.audiobooks.podcasts.navigation.CustomNavType
 import com.audiobooks.podcasts.navigation.PodcastDetails
 import com.audiobooks.podcasts.navigation.PodcastList
-import com.audiobooks.podcasts.ui.PodcastDetailsScreen
-import com.audiobooks.podcasts.ui.PodcastListScreen
+import com.audiobooks.podcasts.ui.view.PodcastDetailsScreen
+import com.audiobooks.podcasts.ui.view.PodcastListScreen
 import com.audiobooks.podcasts.ui.theme.PodcastsTheme
 import kotlin.reflect.typeOf
 
