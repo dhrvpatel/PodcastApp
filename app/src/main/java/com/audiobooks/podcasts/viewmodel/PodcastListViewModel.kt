@@ -15,9 +15,6 @@ class PodcastListViewModel : ViewModel() {
     private val _podcasts = mutableStateOf<List<Podcast>>(emptyList())
     val podcasts: State<List<Podcast>> get() = _podcasts
 
-    private val _errorMessage = mutableStateOf<String?>(null)
-    val errorMessage: State<String?> get() = _errorMessage
-
     init {
         fetchPodcasts()
     }
@@ -27,7 +24,6 @@ class PodcastListViewModel : ViewModel() {
             try {
                 _podcasts.value = repository.getPodcasts().getOrThrow()
             } catch (e: Exception) {
-                _errorMessage.value = e.localizedMessage
                 Log.e("PodcastListViewModel", "Error: ${e.message}", e)
             }
         }
